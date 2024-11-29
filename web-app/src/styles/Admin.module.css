@@ -1,0 +1,147 @@
+.container {
+  font-family: 'DynaPuff', sans-serif;
+  color: #213d30; /* Forest green for text */
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+.card {
+  background-color: #ffffff; /* White card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #8cab68; /* Olive green */
+  color: #f7f5ed; /* Light cream */
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #f7f5ed; /* Light cream for header */
+  color: #213d30; /* Forest green for text */
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table img {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+/* General Button Styles */
+button {
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #213d30; /* Forest green */
+  color: #f7f5ed; /* Light cream */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4b4033; /* Darker brown */
+  color: #f7f5ed;
+}
+
+/* Danger Button (Delete) */
+.btn-danger {
+  background-color: #f44336; /* Red */
+  color: #fff;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f; /* Darker red */
+  color: #fff;
+}
+
+/* Dark Button */
+.btn-dark {
+  background-color: #333; /* Dark gray */
+  color: #fff;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #000; /* Black */
+  color: #fff;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: #8cab68; /* Olive green */
+  color: #ffffff;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #213d30; /* Forest green */
+  color: #f7f5ed;
+}
+
+/* Input Group and Form Elements */
+.input-group .form-select,
+.input-group .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.input-group .form-select:focus,
+.input-group .form-control:focus {
+  border-color: #8cab68; /* Olive green */
+  outline: none;
+}
+
+/* Modal Header */
+.modal-header {
+  background-color: #213d30; /* Forest green */
+  color: #f7f5ed; /* Light cream */
+}
+
+/* Modal Footer Buttons */
+.modal-footer .btn-secondary {
+  background-color: #8cab68; /* Olive green */
+  color: #ffffff;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #213d30; /* Forest green */
+  color: #f7f5ed;
+}
+
+.modal-footer .btn-danger {
+  background-color: #f44336; /* Red */
+  color: #fff;
+}
+
+.modal-footer .btn-danger:hover {
+  background-color: #d32f2f; /* Darker red */
+  color: #fff;
+}
+
+/* Muted Text */
+.text-muted {
+  color: #6c757d; /* Default muted text color */
+}
+
+/* Table Borders */
+.table-bordered {
+  border: 1px solid #ddd;
+}
