@@ -19,6 +19,7 @@ To set up the project, ensure the following dependencies are installed:
 - 🐍 **Python** (latest version) - [Download Python](https://www.python.org/downloads/)
 - 🟢 **Node.js** (latest version) - [Download Node.js](https://nodejs.org/)
 - 🌐 **ngrok** - [Download ngrok](https://ngrok.com/download)
+- 🌐 **credentials** - Refer to the final project report for the download Google Drive Download Link. Place the credentials folder inside of shared/UploadImage-Backend.
 - 🗄️ **MongoDB Compass** - [Download MongoDB Compass](https://www.mongodb.com/products/compass)
 - 📦 **virtualenv**
   ```bash
@@ -186,6 +187,7 @@ This script uploads images and associated metadata (CSV files) into the `WildLif
 - 🔬 Always activate the virtual environment before running Python scripts.
 - 🌐 Use the correct ngrok URL to establish a connection between the local server and Google Drive.
 - 💾 Ensure the `WildLife` database exists in **MongoDB Compass** before running any backend scripts.
+- 📄 The required credentials from Google Drive must be placed inside shared/UploadImage-Backend folder.
 
 ---
 
