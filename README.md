@@ -1,7 +1,6 @@
 # 🌿 Safeguarding Wildlife and Enhancing Sustainable Tourism 🦁
 
-A project aimed at safeguarding wildlife and promoting sustainable tourism in the **Semenggoh Nature Reserve**. The system includes a **web application**, a **mobile application**, and a shared backend.
-
+A project aimed at safeguarding wildlife and promoting sustainable tourism in the **Semenggoh Nature Reserve**. The system includes a **web application**, a **mobile application**, and a shared backend. Users can upload images to know the animal species. The AI model used to detect has been trained with a dataset set of over 20,000 images across 60 species.
 ## 📋 Table of Contents
 
 - [🔧 Installation](#installation)
