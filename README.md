@@ -1,7 +1,69 @@
 # 🌿 Safeguarding Wildlife and Enhancing Sustainable Tourism 🦁
 
 A project aimed at safeguarding wildlife and promoting sustainable tourism in the **Semenggoh Nature Reserve**. The system includes a **web application**, a **mobile application**, and a shared backend. Users can upload images to know the animal species. The AI model used to detect has been trained with a dataset set of over 20,000 images across 60 species.
+
+## 🛠️ Tech Stack
+
+### Frontend
+- **Web Application**: 
+  - React.js
+  - HTML5
+  - CSS3
+  - JavaScript (ES6+)
+
+### Mobile Application
+- **Mobile Development**: 
+  - React Native
+  - Expo
+  - JavaScript (ES6+)
+
+### Backend
+- **Server**: 
+  - Node.js
+  - Express.js
+  - FastAPI (Python)
+
+### Database
+- **Database**: 
+  - MongoDB
+  - MongoDB Compass (for database management)
+
+### Machine Learning
+- **Object Detection**:
+  - YOLOv8 (YOLO version 8)
+  - Python
+- **Image Text Extraction**:
+  - Google Vision API (for extracting date/time/temperature)
+- **AI Model Training**:
+  - Custom dataset (20,000+ images across 60 species)
+
+### Cloud & Integration
+- **Cloud Storage**: 
+  - Google Drive API
+- **Cloud Vision**: 
+  - Google Vision API
+- **Tunneling**: 
+  - ngrok
+
+### Development Tools
+- **Version Control**: Git
+- **Package Managers**: 
+  - npm
+  - pip
+- **Environment Management**: 
+  - virtualenv
+  - Node.js environment
+
+### Additional Technologies
+- **Authentication**: 
+  - MongoDB Authentication
+- **API Development**: 
+  - RESTful API
+  - Webhook Integration
+
 ## 📋 Table of Contents
+
+[Rest of the original README remains the same...]
 
 - [🔧 Installation](#installation)
 - [📂 Project Structure](#project-structure)
